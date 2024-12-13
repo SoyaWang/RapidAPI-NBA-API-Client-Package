@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "my-nba-api"
+version = "0.1.0"
+description = "A Python client for the RapidAPI NBA API"
+authors = ["Xiaoyi Wang <xw3028@columbia.edu>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["NBA", "API", "Python", "Client Package", "Basketball"]
+homepage = "https://github.com/SoyaWang/RapidAPI-NBA-API-Client-Package"
+repository = "https://github.com/SoyaWang/RapidAPI-NBA-API-Client-Package"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.26.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"        # 用于单元测试
+responses = "^0.22.0"    # 用于模拟 HTTP 响应
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

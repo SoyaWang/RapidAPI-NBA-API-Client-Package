@@ -1,0 +1,27 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Log files
+*.log
+
+# Virtual environment directories
+venv/
+env/
+
+# Poetry lock file (if not intended for commit)
+poetry.lock
+
+# IDE and editor configuration files
+.vscode/
+.idea/
+
+# Test coverage reports
+htmlcov/
+.coverage
+*.cover
+
+# Environment variable file
+.env
